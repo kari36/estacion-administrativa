@@ -88,10 +88,10 @@ ul{
     
 }
 h2.col-6{
-    min-width: 300px;
+    width: 276px;
 }
 #mas{
-    min-width: 10px;
+    width: 10px;
     padding: 5px;
     margin-right: 5px;
     text-align: center;
@@ -101,7 +101,7 @@ a.pulsate-fwd.col-1{
     text-decoration: none;
     color: white;
     font-size: 11px;
-    min-width: 40px;
+    width: 40px;
     height: 40px;
     text-align: center;
     border-radius: 8px;
@@ -196,6 +196,10 @@ footer{
 }
 #ul-info{
     display: flex;
+    padding-left: 10px;
+    width: 267px;
+    justify-content: left;
+
     
     
     
@@ -207,19 +211,20 @@ footer{
     color: white;
     
     
+    
 }
 
 #wsap-icon{
     filter: invert();
     width: 43px;
     height: 42px;
-    margin-left: 2px;
+    margin-left: px;
     
     
     
 }
 #wsap-number{
-    width: 80%;
+    width: 163px;
     padding-top: 10px;
     font-size: 14px;
     
@@ -227,16 +232,18 @@ footer{
 #email{
     display: flex;
     color: white;
+    width: 206px ;
+    justify-content:left;
 }
 #email-icon{
     filter: invert();
-        width: 43px;
-        height: 42px;
-        margin-left: 2px;
+    width: 43px;
+    height: 42px;
+    margin-left: px;
 
 }
 #email-estacion{
-    width: 80%;
+    width: 163px;
     padding-top: 10px;
     margin-bottom: 0;
     font-size: 14px;
@@ -251,18 +258,20 @@ footer{
     filter: invert();
     width: 46px;
     height: 23px;
+    padding-left: 8px;
     
 }
 #location{
-    width: 80%;
+    width: 170px;
     color: white;
     font-size: 14px;
     
 }
 #copyright{
     display: flex;  
-    justify-content: end;
+    justify-content: right;
     align-items: center;
+    min-width: 150px;
 }
 #copy{
     filter: invert();
@@ -273,7 +282,7 @@ footer{
 #kari{
     padding-right: 3px;
     padding-left: 3px;
-    margin-right: 10px;
+    margin-right: 2px;
     margin-bottom: 0;
     color: white;
     font-size: 12px;
